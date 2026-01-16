@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+       <div class="sidebar">
+        <div class="profofil">
+            <div class="aylana"><img  src="./Без названия.jpg" alt=""></div>
+        </div>
+
+        <ul class="users_ul">
+            <li class="users_li">Ali</li>
+            <li class="users_li">Vali</li>
+            <li class="users_li">Teacher</li>
+            <li class="users_li">Coder</li>
+            <li class="users_li">User</li>
+            
+        </ul>
+       </div>
+      <div class="main">
+         <div class="header">
+            <form>
+                <input class="search" type="text" placeholder="Search">
+            </form>
+       </div>
+
+       <div class="chat" id="cha">
+        <ul id="messages">
+            
+        </ul>
+        <div class="textInput_Dev">
+            <input type="text" id="sendText" placeholder="Habar yozing...">
+            <button id="sendMsg"><img class="sendImg" src="./image.png" alt=""></button>
+        </div>
+       </div>
+      </div>
+    </div>
+    <script src="https://cdn.socket.io/4.8.1/socket.io.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
